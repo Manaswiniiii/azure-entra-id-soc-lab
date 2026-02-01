@@ -48,6 +48,15 @@ Wrote multiple KQL queries to detect:
 
 ---
 
+Skills Demonstrated
+	•	Microsoft Sentinel (SIEM)
+	•	Microsoft Entra ID (IAM)
+	•	KQL (Kusto Query Language)
+	•	Log Analysis & Threat Hunting
+	•	SOC Alert Rule Creation
+	•	Incident Investigation
+
+
 ## Sample KQL Queries Used
 
 ```kql
@@ -56,13 +65,5 @@ SigninLogs
 | summarize FailedAttempts = count() by UserPrincipalName, IPAddress
 | sort by FailedAttempts desc
 
-
-Skills Demonstrated
-	•	Microsoft Sentinel (SIEM)
-	•	Microsoft Entra ID (IAM)
-	•	KQL (Kusto Query Language)
-	•	Log Analysis & Threat Hunting
-	•	SOC Alert Rule Creation
-	•	Incident Investigation
 
 
